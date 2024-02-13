@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+/**Comman Class**/
+.text_light {
+    color: #6B777F;
+}
+
+.text_success{
+    color:#00D094;
+}
+
+.m_20{
+    margin-bottom: 20px;
+}
+
+.m_70{
+    margin-bottom: 70px;
+}
+
+.font-1 {
+    font-size: 70px;
+}
+
+.font-2{
+    font-size: 60px;
+}
+
+.font-3{
+    font-size: 30px;
+}
+
+.font-4{
+    font-size: 25px;
+}
+
+.font-5{
+    font-size: 20px;
+}
+
+.font-6{
+    font-size: 15px;
+}
+
+.btn-success {
+    background-color: #00D094;
+}
+
+/**Comman Class end**/
+
+/**Header**/
+.header {
+    padding: 18px 70px 40px;
+}
+
+.header .navbar .nav-item {
+    margin: 0 50px;
+}
+
+.header .navbar .nav-item .nav-link {
+    font-size: 16px;
+    color: #0C263A;
+}
+
+.header .nav-button {
+    min-width: 150px;
+    height: 45px;
+    font-size: 22px;
+}
+
+.header .btn-success {
+    margin-right: 20px;
+}
+
+.header .btn-outline-success {
+    border: 1px solid #00D094;
+    color: #00D094;
+}
+
+.header .navbar .navbar-toggler {
+    box-shadow: none !important;
+    border: 0;
+    padding: 25px 15px;
+    background-color: #00D094;
+}
+
+.header .navbar .navbar-toggler:focus,
+.header .navbar .navbar-toggler:active,
+.header .navbar .navbar-toggler .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    display: block;
+    transition: 0.5s ease-in-out;
+}
+
+.header .navbar .navbar-toggler .top-bar {
+    margin-top: 5px;
+    transform: rotate(135deg);
+}
+
+.header .navbar .navbar-toggler .bottom-bar {
+    margin-top: -2px;
+    transform: rotate(-135deg);
+}
+
+.header .navbar .navbar-toggler.collapsed .top-bar {
+    margin-top: 0px;
+    transform: rotate(0deg);
+}
+
+.header .navbar .navbar-toggler.collapsed .bottom-bar {
+    margin-top: 6px;
+    transform: rotate(0deg);
+}
+
+/**Header end**/
+
+/**Banner**/
+.banner {
+    padding: 0 100px;
+}
+
+.banner_wrap {
+    background: url(../image/banner-img.svg);
+    min-height: 856px;
+}
+
+.investment {
+    max-width: 596px;
+}
+
+.graph-banner {
+    max-height: 856px;
+}
+
+.maximize{
+    margin-bottom: 25px;
+}
+
+.banner .btn-success{
+    min-width: 163px;
+    height: 48px;
+    color: #0C263A;
+}
+/**Banner end**/
+
+/**Customer-rate**/
+.customer-rate{
+    padding: 90px 0;
+}
+
+.customer-rate .container{
+    max-width: 1600px;
+}
+
+.customer-rate .card{
+    background-color: #BDE9D4;
+    max-width: 400px;
+    min-height: 200px;
+}
+/**Customer-rate end**/
+
+/**Features**/
+.features{
+    background: url(../image/features.svg);
+    padding: 100px 128px;
+    background-size: cover;
+}
+
+.features .card{
+    max-width: 326px;
+    min-height: 420px;
+    padding: 27px 19px;
+    border-radius: 30px;
+}
+
+.features .card .card-img-top{
+    max-width: 252px;
+    height: 194px;
+    margin-bottom: 43px;
+}
+/**Features end**/

@@ -1,0 +1,15 @@
+  /* Rubik Variable Font - Regular */
+  @font-face {
+    font-family: 'Rubik';
+    src: url('../font/Rubik/Rubik-VariableFont_wght.ttf') format('truetype-variations');
+    font-weight: 100 900; /* Assuming weight range is 100 to 900 */
+    font-style: normal;
+  }
+  
+  /* Rubik Variable Font - Italic */
+  @font-face {
+    font-family: 'Rubik';
+    src: url('../font/Rubik/Rubik-Italic-VariableFont_wght.ttf') format('truetype-variations');
+    font-weight: 100 900; /* Assuming weight range is 100 to 900 */
+    font-style: italic;
+  }

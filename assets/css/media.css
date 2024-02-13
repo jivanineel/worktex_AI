@@ -1,0 +1,119 @@
+/* ---------------------------- 
+      (max-width:1800px)
+------------------------------ */
+@media (min-width: 1200px) and (max-width: 1800px) {
+    .banner_wrap {
+        min-height: 520px;
+    }
+}
+
+
+/* ---------------------------- 
+      (max-width:1400px)
+------------------------------ */
+@media only screen and (max-width: 1400px) {
+    .features .card{
+        margin-bottom: 20px;
+    }
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .header .navbar .nav-item {
+        margin: 0 30px;
+    }
+}
+
+
+/* ---------------------------- 
+      (max-width:1200px)
+------------------------------ */
+@media only screen and (max-width: 1200px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 85px;
+        left: 0;
+        background-color: #fff;
+        width: 100%;
+        z-index: 2;
+        padding: 10px 20px;
+    }
+
+    .header .navbar .nav-item {
+        margin: 0;
+    }
+
+    .customer-rate .card{
+        margin-bottom: 30px;
+    }
+
+    .investment{
+        background-color: #fff;
+        padding: 20px 0;
+    }
+
+    .invest-main{
+        justify-content: center;
+    }
+}
+
+
+/* ---------------------------- 
+      (max-width:992px)
+------------------------------ */
+@media only screen and (max-width: 992px) {
+    .features {
+        padding: 65px 128px;
+    }
+
+    .customer-rate {
+        padding: 55px 0;
+    }
+
+    .change{
+        display: none;
+    }
+}
+
+/* ---------------------------- 
+      (max-width:768px)
+------------------------------ */
+@media only screen and (max-width: 768px){
+}
+
+
+/* ---------------------------- 
+      (max-width:575px)
+------------------------------ */
+@media only screen and (max-width: 575px){
+    .graph-banner{
+        min-height: 360px;
+        width: 360px;
+    }
+
+    .banner_wrap {
+        min-height: 680px;
+    }
+
+    .header {
+        padding: 18px 25px 40px;
+    }
+
+    .banner {
+        padding: 0 30px;
+    }
+
+    .features {
+        padding: 65px 27px;
+    }
+
+    .banner-graph{
+        display: flex;
+        justify-content: center;
+    }
+
+    .font-1 {
+        font-size: 37px;
+    }
+}
